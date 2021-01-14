@@ -1,0 +1,206 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+background-color: white;
+font-family: 'Raleway', sans-serif;
+}
+
+header {
+display: flex; 
+justify-content: space-between;
+align-items: center;
+}
+
+// MENU
+
+nav {
+width: 100%;
+display: flex;
+justify-content: flex-end;
+}
+
+// links 
+
+a {
+  text-decoration: none;
+  color: #303030;
+}
+
+form {
+  background-color: #DDDDDD;
+  width: 400px;
+  height: 150px;
+  padding: 30px;
+  border: 10px solid #DDDDDD;
+  margin: 10px;
+}
+
+// menu
+
+.menuSuperior {
+  list-style-type: none;
+  display: inline-flex;
+  justify-content: flex-end;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.itemMenuSuperior {
+  padding: 5px;
+}
+
+.menuInferior {
+  list-style-type: none;
+  display: flex; 
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.itemMenuInferior {
+  padding: 5px;
+}
+
+// Portada
+
+.coverTextBorder {
+  font-size: 200px;
+}
+
+.coverTextBorderBaH {
+  font-size: 100px;
+}
+
+.marginBaH {
+  justify-content: center;
+  margin: 50px;
+}
+
+.coverPhoto {
+  background-image: url(../img/pastry/nyc_cookies.jpg;);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  border: 0;
+  width: 99%;
+}
+
+.bordesCaja {
+  border-radius: 10px;
+  border: 3px;
+}
+
+.baseText {
+  color: #303030;
+}
+
+.backgroundColor {
+  color: #AED4D5;
+}
+
+// Caja para poner imagenes y escribir arriba
+.contenedor {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+// Bottom left text 
+.bottomLeft {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+// Top left text 
+.topLeft {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+// Top right text 
+.topRight {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+// Bottom right text 
+.bottomRight {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+// Centered text 
+.center {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.bottomCenter {
+  position: absolute;
+  bottom: 8px;
+  left: 50%;
+} 
+
+.suscribeBanner {
+  color: white;
+  font-size: 50px;
+  padding-left: 50px;
+  padding-top: 30px;
+}
+
+.subscribeTextBox {
+  padding-left: 50px;
+}
+
+// Contacto
+
+.map {
+  min-width: 10%;
+  min-height: 10%;
+  width: 100%;
+  height: 100%;
+}
+
+.headerContact {
+  background-color: #F5F5F5;
+  color: #36A0FF;
+  height: 70px;
+  font-size: 27px;
+  padding: 10px;
+}
+
+//Boton Enviar
+
+.estiloBotones {
+  border: 1px ($fondoBotones);
+  background-color: $fondoBotones;
+  color: $textoBotones;
+}
+
+// footer
+
+.socialMedia {
+  background-size: 100%;
+  align-content: center;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  column-gap: 2px;
+}
+
+// Seccion Contacto
+
+.titulosContacto {
+  background-color: #FFFFFF;
+  color: $textoBotones;
+  font-weight: bold;
+}
+

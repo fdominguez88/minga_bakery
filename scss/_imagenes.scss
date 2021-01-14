@@ -1,0 +1,99 @@
+.logoMinga {
+    width: 250px;
+    height: 100px;
+    list-style-type: none;
+}
+
+.socialNetworkLogo {
+    width:25px;
+    margin: 2px;
+    padding-bottom: 5px;
+}
+
+.socialNetworkLogoFondo {
+    margin-right: 10px;
+}
+
+.bannerNosotros {
+    background-image: url(../img/cupcakeBanner2.jpg);
+    height: 250px; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.bannerIndex {
+    background-image: url(../img/cupcakeBanner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bannerMinga {
+    background-image: url(../img/mingabanner.png);
+    height: 200px; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.bannerSubscribe {
+    background-image: url(../img/subscribePic.jpg);
+    background-size: cover; 
+    height: 200px;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+
+// FOTOS
+
+.gridFotos {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    margin: 20px;
+}
+
+
+.fotosIndex {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.miniFoto {
+    display: flex;
+    width: 350px;
+    height: 350px;
+    flex-wrap: nowrap;
+}
+
+.fotoBaH {
+    display: flex;
+    width: 90%;
+    height: 90%;
+    margin-bottom: 5%;
+    flex-wrap: nowrap;
+}
+
+.miniFotoGaleria {
+    display: flex;
+    width: 350px;
+    height: 350px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    flex-wrap: nowrap;
+    transition: height 1s, width 1s;
+}
+
+.whitePic {
+    width: 350px;
+    height: 350px;
+    background-color: white;
+}
+
+.achicaCarousel {
+    height: 70%;
+}

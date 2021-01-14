@@ -1,0 +1,369 @@
+h1.textoCover {
+  font-family: 'Roboto', sans-serif;
+  font-size: 15vw;
+  font-weight: bold;
+  margin-top: 5%;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+}
+
+h3 {
+  font-family: 'Roboto', sans-serif;
+}
+
+h4 {
+  font-family: 'Roboto', sans-serif;
+}
+
+h5 {
+  font-family: 'Roboto', sans-serif;
+}
+
+h6 {
+  font-family: 'Roboto', sans-serif;
+}
+
+.titulos {
+  font-family: 'Roboto', sans-serif;
+  color: #61B091;
+}
+
+.tituloPrincipalContacto {
+  font-family: 'Roboto', sans-serif;
+  color: #FDC8BE;
+}
+
+.logoMinga {
+  width: 250px;
+  height: 100px;
+  list-style-type: none;
+}
+
+.socialNetworkLogo {
+  width: 25px;
+  margin: 2px;
+  padding-bottom: 5px;
+}
+
+.socialNetworkLogoFondo {
+  margin-right: 10px;
+}
+
+.bannerNosotros {
+  background-image: url(../img/cupcakeBanner2.jpg);
+  height: 250px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bannerIndex {
+  background-image: url(../img/cupcakeBanner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bannerMinga {
+  background-image: url(../img/mingabanner.png);
+  height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bannerSubscribe {
+  background-image: url(../img/subscribePic.jpg);
+  background-size: cover;
+  height: 200px;
+  padding-top: 10px;
+  margin-top: 10px;
+}
+
+.gridFotos {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 20px;
+}
+
+.fotosIndex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+}
+
+.miniFoto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 350px;
+  height: 350px;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+.fotoBaH {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 90%;
+  height: 90%;
+  margin-bottom: 5%;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+.miniFotoGaleria {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 350px;
+  height: 350px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-transition: height 1s, width 1s;
+  transition: height 1s, width 1s;
+}
+
+.whitePic {
+  width: 350px;
+  height: 350px;
+  background-color: white;
+}
+
+.achicaCarousel {
+  height: 70%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  font-family: 'Raleway', sans-serif;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+a {
+  text-decoration: none;
+  color: #303030;
+}
+
+form {
+  background-color: #DDDDDD;
+  width: 400px;
+  height: 150px;
+  padding: 30px;
+  border: 10px solid #DDDDDD;
+  margin: 10px;
+}
+
+.menuSuperior {
+  list-style-type: none;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  width: 100%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.itemMenuSuperior {
+  padding: 5px;
+}
+
+.menuInferior {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.itemMenuInferior {
+  padding: 5px;
+}
+
+.coverTextBorder {
+  font-size: 200px;
+}
+
+.coverTextBorderBaH {
+  font-size: 100px;
+}
+
+.marginBaH {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 50px;
+}
+
+.coverPhoto {
+  background-image: url(../img/pastry/nyc_cookies.jpg;);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  border: 0;
+  width: 99%;
+}
+
+.bordesCaja {
+  border-radius: 10px;
+  border: 3px;
+}
+
+.baseText {
+  color: #303030;
+}
+
+.backgroundColor {
+  color: #AED4D5;
+}
+
+.contenedor {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.bottomLeft {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+.topLeft {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+.topRight {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+.bottomRight {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+.center {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.bottomCenter {
+  position: absolute;
+  bottom: 8px;
+  left: 50%;
+}
+
+.suscribeBanner {
+  color: white;
+  font-size: 50px;
+  padding-left: 50px;
+  padding-top: 30px;
+}
+
+.subscribeTextBox {
+  padding-left: 50px;
+}
+
+.map {
+  min-width: 10%;
+  min-height: 10%;
+  width: 100%;
+  height: 100%;
+}
+
+.headerContact {
+  background-color: #F5F5F5;
+  color: #36A0FF;
+  height: 70px;
+  font-size: 27px;
+  padding: 10px;
+}
+
+.estiloBotones {
+  border: 1px #FDC8BE;
+  background-color: #FDC8BE;
+  color: #61B091;
+}
+
+.socialMedia {
+  background-size: 100%;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  -webkit-column-gap: 2px;
+          column-gap: 2px;
+}
+
+.titulosContacto {
+  background-color: #FFFFFF;
+  color: #61B091;
+  font-weight: bold;
+}
+/*# sourceMappingURL=main.css.map */
