@@ -206,6 +206,12 @@ form {
   color: $textoBotones;
 }
 
+.estiloBotones:hover {
+  border: 1px ($textoBotones);
+  background-color: $textoBotones;
+  color: $fondoBotones;
+}
+
 // footer
 
 .socialMedia {
