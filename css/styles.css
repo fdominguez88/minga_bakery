@@ -36,6 +36,10 @@ h6 {
   justify-content: center;
   width: 100%; }
 
+p .marginBakeAtHome {
+  margin-left: 10%;
+  margin-right: 10%; }
+
 .logoMinga {
   width: 250px;
   height: 100px;
