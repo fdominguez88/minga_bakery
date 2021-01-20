@@ -14,6 +14,14 @@
     margin-right: 10px;
 }
 
+.centrarSocialNetwork {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
 .bannerNosotros {
     background-image: url(../img/cupcakeBanner2.jpg);
     height: 250px; 
@@ -26,6 +34,27 @@
     background-image: url(../img/cupcakeBanner.png);
     background-repeat: no-repeat;
     background-size: cover;
+    height: calc(100vh - 126px)
+}
+
+//Media Query foto Index
+
+/* 992px o menos */
+@media screen and (max-width: 992px) {
+    .bannerIndex {
+    background-image: url(../img/cupcakeBanner.png);
+    background-repeat: no-repeat;
+    background-size: cover;    
+    }
+}
+
+  /* 600px o menos */
+@media screen and (max-width: 600px) {
+.bannerIndex {
+    background-image: url(../img/cupcakeBanner.png);
+    background-repeat: no-repeat;
+    background-size: cover;    
+    }
 }
 
 .bannerMinga {
