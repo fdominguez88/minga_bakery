@@ -11,6 +11,13 @@ h1.textoCover {
   font-weight: bold;
   text-shadow: 2px 2px 4px #000000; }
 
+.textoBaH {
+  font-family: 'Raleway', sans-serif;
+  font-size: 2vw;
+  font-weight: bold;
+  color: #FDC8BE;
+  text-shadow: 2px 2px 4px #000000; }
+
 h1 {
   font-family: 'Roboto', sans-serif; }
 
@@ -49,6 +56,20 @@ p .marginBakeAtHome {
 .titulosContacto {
   color: #61B091; }
 
+/* 992px o menos */
+@media screen and (max-width: 992px) {
+  .bannerIndex {
+    background-image: url(../img/cupcakeBanner.png);
+    background-repeat: no-repeat;
+    background-size: cover; } }
+
+/* 600px o menos */
+@media screen and (max-width: 600px) {
+  .bannerIndex {
+    background-image: url(../img/cupcakeBanner.png);
+    background-repeat: no-repeat;
+    background-size: cover; } }
+
 .logoMinga {
   width: 250px;
   height: 100px;
@@ -81,20 +102,6 @@ p .marginBakeAtHome {
   background-repeat: no-repeat;
   background-size: cover;
   height: calc(100vh - 126px); }
-
-/* 992px o menos */
-@media screen and (max-width: 992px) {
-  .bannerIndex {
-    background-image: url(../img/cupcakeBanner.png);
-    background-repeat: no-repeat;
-    background-size: cover; } }
-
-/* 600px o menos */
-@media screen and (max-width: 600px) {
-  .bannerIndex {
-    background-image: url(../img/cupcakeBanner.png);
-    background-repeat: no-repeat;
-    background-size: cover; } }
 
 .bannerMinga {
   background-image: url(../img/mingabanner.png);
