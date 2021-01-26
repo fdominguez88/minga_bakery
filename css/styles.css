@@ -11,6 +11,27 @@ h1.textoCover {
   font-weight: bold;
   text-shadow: 2px 2px 4px #000000; }
 
+/* 992px o menos */
+@media screen and (max-width: 992px) {
+  h1.textoCoverIndex {
+    font-family: 'Raleway', sans-serif;
+    font-size: 13vw;
+    font-weight: bold;
+    margin-top: 5%;
+    text-shadow: 2px 2px 4px #000000; }
+  h1.textoCover {
+    font-family: 'Raleway', sans-serif;
+    font-size: 7vw;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px #000000; } }
+
+/* 600px o menos */
+@media screen and (max-width: 600px) {
+  .bannerIndex {
+    background-image: url(../img/cupcakeBanner.png);
+    background-repeat: no-repeat;
+    background-size: cover; } }
+
 .textoBaH {
   font-family: 'Raleway', sans-serif;
   font-weight: bold;
