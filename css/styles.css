@@ -85,8 +85,8 @@ p .marginBakeAtHome {
   .achicaCarousel {
     display: flex;
     justify-items: center;
-    max-height: 150px !important;
-    max-width: 150px !important; } }
+    height: 250px !important;
+    max-width: 250px !important; } }
 
 /* 600px o menos */
 @media screen and (max-width: 600px) {
@@ -97,8 +97,8 @@ p .marginBakeAtHome {
   .achicaCarousel {
     display: flex;
     justify-items: center;
-    max-height: 150px !important;
-    max-width: 150px !important; } }
+    height: 250px !important;
+    max-width: 250px !important; } }
 
 .logoMinga {
   width: 250px;
