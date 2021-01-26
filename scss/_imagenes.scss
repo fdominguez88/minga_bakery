@@ -7,6 +7,12 @@
     background-repeat: no-repeat;
     background-size: cover;    
     }
+    .achicaCarousel {
+        display: flex;
+        justify-items: center;
+        max-height: 150px !important;
+        max-width: 150px !important;
+    }
 }
 
   /* 600px o menos */
@@ -15,6 +21,12 @@
     background-image: url(../img/cupcakeBanner.png);
     background-repeat: no-repeat;
     background-size: cover;    
+    }
+    .achicaCarousel {
+        display: flex;
+        justify-items: center;
+        max-height: 150px !important;
+        max-width: 150px !important;
     }
 }
 
