@@ -123,6 +123,9 @@ p .marginBakeAtHome {
   background-size: cover;
   height: calc(100vh - 126px); }
 
+.fotoBannerIndex {
+  height: calc(100vh - 126px); }
+
 .bannerMinga {
   background-image: url(../img/mingabanner.png);
   height: 200px;
