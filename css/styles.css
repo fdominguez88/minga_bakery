@@ -185,9 +185,7 @@ p .marginBakeAtHome {
 
 .achicaCarousel {
   display: flex;
-  justify-items: center;
-  max-height: 640px !important;
-  max-width: 640px !important; }
+  justify-items: center; }
 
 .bannerGaleria {
   max-height: 499px !important; }
